@@ -1,0 +1,152 @@
+body {
+    margin: 50px;
+    background-color: #EEEDE7;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: right;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 90px;
+    margin-top: 0px;
+    color;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.colors {
+    text-align: center;
+}
+
+section {
+    border: 3px dashed #222222;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+}
+
+li h3 {
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.colors li p {
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.colors li {
+    display: inline-block;
+}
+
+li.large {
+width: 250px;
+height: 250px;
+}
+
+li.medium {
+    width: 175px;
+    height: 175px;
+    color: #fff;
+}
+
+li.small {
+    width: 125px;
+    height: 125px;
+    color: #fff;
+}
+
+li.cream {
+    background-color: #F7F5F0;
+}
+
+li.white {
+    background-color: #ffffff;
+}
+
+li.almost-black {
+    background-color: #222222;
+}
+
+li.orange {
+    background-color: #E36827;
+}
+
+li.red {
+    background-color: #7E2822;
+}
+
+li.green {
+    background-color: #1E502D;
+}
+
+li.purple {
+    background-color: #462F48;
+}
+
+.SansitaSwashed {
+    font-family: 'Sansita Swashed', cursive;
+    border-left: 5px solid #462F48;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.OpenSans {
+    border-left: 5px solid #e36827;
+    padding: 10px 20px;
+}
+
+p.light {
+    font-weight: 300;
+}
+
+p.bold {
+    font-weight: 500;
+}
+
+p.italic {
+font-style: italic;
+}
+
+.text li {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.text ul {
+    margin-bottom: 50px;
+    border-bottom: 5px solid #e36827;
+}
+
+.text h1 {
+    margin-bottom: 0px;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+p.head {
+    font-size: 20px;
+}
