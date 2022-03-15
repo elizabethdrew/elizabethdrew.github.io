@@ -1,0 +1,126 @@
+* {
+    opacity: 0.9;
+    list-style: none;
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+  header {
+      background-color: black;
+      border-bottom: 1px solid seashell;
+      height: 69px;
+      position: fixed;
+      top: 0;
+      z-index: 2;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 10px;
+  }
+
+header a {
+    color: seashell;
+    margin-right: 15px;
+}
+
+.menu {
+    padding-right: 20px;
+}
+
+.menu ul li {
+    display: inline;
+    padding-left: 50px;
+}
+
+main {
+    width: 100%;
+}
+
+.hero {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 70px auto 40px auto;
+    display: flex;
+}
+
+.title {
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+.allteas {
+    max-width: 1000px;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.allteas img {
+    height: 200 px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.allteas h4 {
+    margin-top: 0px;
+}
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    padding: 50px;
+}
+
+.place {
+        width: 300px;
+        box-sizing: border-box;
+        padding: 10px;
+        background-color: black;
+        opacity: 1;
+        margin: 0px 20px 40px 20px;
+}
+
+.loc-title h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.loc-box {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin: 0px 20px;
+}
